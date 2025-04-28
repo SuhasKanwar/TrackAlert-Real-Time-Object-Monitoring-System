@@ -17,7 +17,7 @@ model = load_model()
 
 tracker = Tracker()
 
-st.title("Real-Time Missing and New Object Detection 🚀")
+st.title("Real-Time Missing and New Object Detection")
 
 st.sidebar.title("Settings")
 confidence_threshold = st.sidebar.slider("Confidence Threshold", 0.25, 1.0, 0.5, 0.01)
